@@ -124,11 +124,35 @@ covistats country-rank
 covistats country-rank -v
 ```
 
-* `active` - Get total active cases.
-* `confirmed` - Get total confirmed cases.
-* `deaths` - Get total deaths.
-* `recovered` - Get number of total recovered patients.
-* `total` - Get number of total confirmed cases, active cases, deaths and recovered patients.
+* `active` - Get total active cases:
+
+```bash
+covistats active
+```
+
+* `confirmed` - Get total confirmed cases:
+
+```bash
+covistats confirmed
+```
+
+* `deaths` - Get total deaths:
+
+```bash
+covistats deaths
+```
+
+* `recovered` - Get number of total recovered patients:
+
+```bash
+covistats recovered
+```
+
+* `total` - Get number of total confirmed cases, active cases, deaths and recovered patients:
+
+```bash
+covistats total
+```
 
 ## License
 
