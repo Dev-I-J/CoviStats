@@ -1,0 +1,23 @@
+{
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
+        "cSpell.words": [
+            "Coronavirus",
+            "Covi",
+            "Covid",
+            "autopep",
+            "colorama",
+            "covistats",
+            "pipenv",
+            "psql",
+            "pyinstaller",
+            "pypager",
+            "secho",
+            "tablefmt"
+        ]
+    }
+}
