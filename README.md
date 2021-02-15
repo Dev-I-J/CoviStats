@@ -48,8 +48,19 @@ As of the current latest stable version - 0.0.1, covistats has the following out
 * `cd` to project directory: `cd CoviStats`
 * Install `pipenv`: `pip install pipenv`
 * Install dependencies: `pipenv install --dev`
-* Build executable: `pyinstaller covistats.spec`
-* Run `covistats`: `dist/covistats --help`
+* `cd` to `src` directory: `cd src`
+* Bulid executable with `pyinstaller`: `pyinstaller covistats.spec`
+* Run `covistats`: `../dist/covistats --help`
+
+```bash
+git clone https://github.com/Dev-I-J/CoviStats.git
+cd CoviStats
+pip install pipenv
+pipenv install --dev
+cd src
+pyinstaller covistats.spec
+../dist/covistats --help
+```
 
 ## Usage
 
@@ -161,6 +172,10 @@ covistats total
 ## Developer Info
 
 `CoviStats` is written in [`Python`](https://python.org).
+
+### Dependency Management
+
+* [`pipenv`](https://pypi.org/project/pipenv)
 
 ### Dependencies
 
