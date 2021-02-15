@@ -6,7 +6,7 @@ import sys
 block_cipher = None
 
 
-a = Analysis(['src/covistats.py'],
+a = Analysis(['covistats.py'],
              pathex=[os.path.abspath('.')],
              binaries=[],
              datas=[],
